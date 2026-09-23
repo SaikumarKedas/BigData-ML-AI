@@ -1,2 +1,4 @@
-#commit test
-print("Hello, World!")
+from openai import OpenAI
+
+client = OpenAI()
+
