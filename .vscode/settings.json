@@ -13,7 +13,7 @@
         "**/.git": true,
         "**/Thumbs.db": true,
         "**/.vscode": true,
-        "**/.venv": true,
+        "**/.venv": false,
         "**/AI_ML/.env": true,
         "**/AI_ML/VectorDB/": true,
     },
