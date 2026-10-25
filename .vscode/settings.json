@@ -12,7 +12,7 @@
         "**/.DS_Store": true,
         "**/.git": true,
         "**/Thumbs.db": true,
-        "**/.vscode": true,
+        "**/.vscode": false,
         "**/.venv": false,
         "**/AI_ML/.env": true,
         "**/AI_ML/VectorDB/": true,
