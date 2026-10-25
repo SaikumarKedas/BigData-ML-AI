@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 llm = ChatOllama(model="llama3.2:1b", base_url="http://localhost:11434")
 
 # Load PDF
-loader = PyPDFLoader("AI_ML/data/cricket.pdf")
+loader = PyPDFLoader("AI_ML/data/cricket/main_file.pdf")
 pages = loader.load()
 print("\n Total Pages:", len(pages))
 
